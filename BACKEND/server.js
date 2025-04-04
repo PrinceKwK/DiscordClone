@@ -11,6 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+console.log("starting server");
 const server = http.createServer(app);
 
 server.listen(PORT, () =>{
